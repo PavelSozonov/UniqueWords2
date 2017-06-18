@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.inno.ps.words.wordprocessor.ConcurrentWordProcessorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-18T21:54:30" hostname="hp" time="0.492">
+  <properties/>
+  <testcase name="checkDuplicates_thereIsDuplicate_returnsFalse" classname="ru.inno.ps.words.wordprocessor.ConcurrentWordProcessorTest" time="0.48"/>
+  <testcase name="checkDuplicates_thereIsNoDuplicate_returnsTrue" classname="ru.inno.ps.words.wordprocessor.ConcurrentWordProcessorTest" time="0.012"/>
+  <system-out><![CDATA[Duplicate is found: Пушкин
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
