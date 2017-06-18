@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.inno.ps.words.resource.FileResourceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-18T20:13:29" hostname="hp" time="0.006">
+  <properties/>
+  <testcase name="nextWord_correctWords_assertEqualsAndTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.003"/>
+  <testcase name="nextWord_thereAreLatinLetters_expectedException" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.002"/>
+  <system-out><![CDATA[Expected exception was caught. Message: Illegal latin symbols are found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
