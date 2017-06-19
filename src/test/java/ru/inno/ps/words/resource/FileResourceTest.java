@@ -53,6 +53,147 @@ public class FileResourceTest {
 
     // Unit test (with reading from mocked buffered reader)
     @Test
+    public void nextWord_readFromMockedBufferedReaderSeveralNewLines_assertTrue() throws Exception {
+        BufferedReader mockedBufferedReader = mock(BufferedReader.class);
+        FileResource fileResource = new FileResource(
+                "src/test/resources/empty_file_stub.txt");
+
+        when(mockedBufferedReader.read())
+                .thenReturn((int)'А')
+                .thenReturn((int)'б')
+                .thenReturn((int)'\n')
+                .thenReturn((int)'\n')
+                .thenReturn((int)'В')
+                .thenReturn((int)'г')
+                .thenReturn(-1);
+
+        Class fileResourceClass = FileResource.class;
+        Field bufferedReaderField = fileResourceClass.getDeclaredField("bufferedReader");
+        bufferedReaderField.setAccessible(true);
+        bufferedReaderField.set(fileResource, mockedBufferedReader);
+        assertEquals(fileResource.nextWord(), "Аб");
+        assertEquals(fileResource.nextWord(), "Вг");
+        assertTrue(fileResource.nextWord() == null);
+    }
+
+    // Unit test (with reading from mocked buffered reader)
+    @Test
+    public void nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue() throws Exception {
+        BufferedReader mockedBufferedReader = mock(BufferedReader.class);
+        FileResource fileResource = new FileResource(
+                "src/test/resources/empty_file_stub.txt");
+
+        when(mockedBufferedReader.read())
+                .thenReturn((int)'А')
+                .thenReturn((int)'б')
+                .thenReturn((int)' ')
+                .thenReturn((int)' ')
+                .thenReturn((int)'\n')
+                .thenReturn((int)'\n')
+                .thenReturn((int)' ')
+                .thenReturn((int)' ')
+                .thenReturn((int)'В')
+                .thenReturn((int)'г')
+                .thenReturn((int)' ')
+                .thenReturn((int)' ')
+                .thenReturn((int)'\n')
+                .thenReturn((int)'\n')
+                .thenReturn((int)' ')
+                .thenReturn((int)' ')
+                .thenReturn(-1);
+
+        Class fileResourceClass = FileResource.class;
+        Field bufferedReaderField = fileResourceClass.getDeclaredField("bufferedReader");
+        bufferedReaderField.setAccessible(true);
+        bufferedReaderField.set(fileResource, mockedBufferedReader);
+        assertEquals(fileResource.nextWord(), "Аб");
+        assertEquals(fileResource.nextWord(), "Вг");
+        assertTrue(fileResource.nextWord() == null);
+    }
+
+    // Unit test (with reading from mocked buffered reader)
+    @Test
+    public void nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue() throws Exception {
+        BufferedReader mockedBufferedReader = mock(BufferedReader.class);
+        FileResource fileResource = new FileResource(
+                "src/test/resources/empty_file_stub.txt");
+
+        when(mockedBufferedReader.read())
+                .thenReturn((int)'!')
+                .thenReturn((int)'!')
+                .thenReturn((int)' ')
+                .thenReturn((int)'.')
+                .thenReturn((int)'.')
+                .thenReturn(-1);
+
+        Class fileResourceClass = FileResource.class;
+        Field bufferedReaderField = fileResourceClass.getDeclaredField("bufferedReader");
+        bufferedReaderField.setAccessible(true);
+        bufferedReaderField.set(fileResource, mockedBufferedReader);
+        assertEquals(fileResource.nextWord(), "!!");
+        assertEquals(fileResource.nextWord(), "..");
+        assertTrue(fileResource.nextWord() == null);
+    }
+
+    // Unit test (with reading from mocked buffered reader)
+    @Test
+    public void nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue() throws Exception {
+        BufferedReader mockedBufferedReader = mock(BufferedReader.class);
+        FileResource fileResource = new FileResource(
+                "src/test/resources/empty_file_stub.txt");
+
+        when(mockedBufferedReader.read())
+                .thenReturn((int)'!')
+                .thenReturn((int)'А')
+                .thenReturn((int)'б')
+                .thenReturn((int)' ')
+                .thenReturn((int)'В')
+                .thenReturn((int)'г')
+                .thenReturn((int)'.')
+                .thenReturn((int)' ')
+                .thenReturn((int)'$')
+                .thenReturn((int)'Д')
+                .thenReturn((int)'е')
+                .thenReturn((int)'$')
+                .thenReturn(-1);
+
+        Class fileResourceClass = FileResource.class;
+        Field bufferedReaderField = fileResourceClass.getDeclaredField("bufferedReader");
+        bufferedReaderField.setAccessible(true);
+        bufferedReaderField.set(fileResource, mockedBufferedReader);
+        assertEquals(fileResource.nextWord(), "!Аб");
+        assertEquals(fileResource.nextWord(), "Вг.");
+        assertEquals(fileResource.nextWord(), "$Де$");
+        assertTrue(fileResource.nextWord() == null);
+    }
+
+    // Unit test (with reading from mocked buffered reader)
+    @Test
+    public void nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue() throws Exception {
+        BufferedReader mockedBufferedReader = mock(BufferedReader.class);
+        FileResource fileResource = new FileResource(
+                "src/test/resources/empty_file_stub.txt");
+
+        when(mockedBufferedReader.read())
+                .thenReturn((int)'А')
+                .thenReturn((int)'б')
+                .thenReturn((int)' ')
+                .thenReturn((int)' ')
+                .thenReturn((int)'В')
+                .thenReturn((int)'г')
+                .thenReturn(-1);
+
+        Class fileResourceClass = FileResource.class;
+        Field bufferedReaderField = fileResourceClass.getDeclaredField("bufferedReader");
+        bufferedReaderField.setAccessible(true);
+        bufferedReaderField.set(fileResource, mockedBufferedReader);
+        assertEquals(fileResource.nextWord(), "Аб");
+        assertEquals(fileResource.nextWord(), "Вг");
+        assertTrue(fileResource.nextWord() == null);
+    }
+
+    // Unit test (with reading from mocked buffered reader)
+    @Test
     public void nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException() throws Exception {
         BufferedReader mockedBufferedReader = mock(BufferedReader.class);
         FileResource fileResource = new FileResource(

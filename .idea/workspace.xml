@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b96aa04-5dda-4bbe-8790-909f2862b210" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/empty_file_stub.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/test_words_correct.txt" afterPath="$PROJECT_DIR$/src/test/resources/test_words_correct.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/test_words_with_latin_letters.txt" afterPath="$PROJECT_DIR$/src/test/resources/test_words_with_latin_letters.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file1.txt" afterPath="$PROJECT_DIR$/src/main/resources/file1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file10.txt" afterPath="$PROJECT_DIR$/src/main/resources/file10.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file11.txt" afterPath="$PROJECT_DIR$/src/main/resources/file11.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file12.txt" afterPath="$PROJECT_DIR$/src/main/resources/file12.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file2.txt" afterPath="$PROJECT_DIR$/src/main/resources/file2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file3.txt" afterPath="$PROJECT_DIR$/src/main/resources/file3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file4.txt" afterPath="$PROJECT_DIR$/src/main/resources/file4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file5.txt" afterPath="$PROJECT_DIR$/src/main/resources/file5.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file6.txt" afterPath="$PROJECT_DIR$/src/main/resources/file6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file7.txt" afterPath="$PROJECT_DIR$/src/main/resources/file7.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file8.txt" afterPath="$PROJECT_DIR$/src/main/resources/file8.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_text_files/file9.txt" afterPath="$PROJECT_DIR$/src/main/resources/file9.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.inno.ps.words.wordprocessor.ConcurrentWordProcessorTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.inno.ps.words.wordprocessor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.inno.ps.words.wordprocessor.ConcurrentWordProcessorTest.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.inno.ps.words.resource.FileResourceTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.inno.ps.words.resource.FileResourceTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.inno.ps.words.resource.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.inno.ps.words.resource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.inno.ps.words.resource.FileResourceTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.inno.ps.words.resource.FileResourceTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/FileResourceTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/FileResourceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -196,8 +193,8 @@
       <file leaf-file-name="FileResourceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/FileResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -617,8 +614,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -682,70 +679,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordprocessor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UniqueWords2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UniqueWords2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UniqueWords2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UniqueWords2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -784,25 +717,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.Tests in 'UniqueWords2_test'">
-    <configuration default="false" name="FileResourceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests ru.inno.ps.words.resource.FileResourceTest" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
     <configuration default="false" name="Tests in 'UniqueWords2_test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -822,12 +736,12 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="FileResourceTest.nextWord_withoutFileReading" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_withoutFileReading&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -841,12 +755,12 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="FileResourceTest.nextWord_thereAreLatinLetters_expectedException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_thereAreLatinLetters_expectedException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -860,12 +774,31 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="FileResourceTest.nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.inno.ps.words.resource.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -1260,19 +1193,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.FileResourceTest" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.Tests in 'UniqueWords2_test'" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_withoutFileReading" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_thereAreLatinLetters_expectedException" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.Tests in 'UniqueWords2_test'" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Gradle.Tests in 'UniqueWords2_test'" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.FileResourceTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_thereAreLatinLetters_expectedException" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_withoutFileReading" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -1287,47 +1220,48 @@
       <option name="presentableId" value="Default" />
       <updated>1497810144768</updated>
       <workItem from="1497810147120" duration="94000" />
-      <workItem from="1497810298563" duration="12501000" />
+      <workItem from="1497810298563" duration="14056000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileResourceTest - 2017.06.19 at 00h 44m 47s.xml">
+    <history-entry file="FileResourceTest - 2017.06.19 at 00h 58m 06s.xml">
       <configuration name="FileResourceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException - 2017.06.19 at 00h 50m 49s.xml">
-      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue - 2017.06.19 at 09h 26m 39s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_thereAreLatinLetters_expectedException - 2017.06.19 at 00h 44m 13s.xml">
-      <configuration name="FileResourceTest.nextWord_thereAreLatinLetters_expectedException" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue - 2017.06.19 at 09h 22m 54s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_thereAreLatinLetters_expectedException - 2017.06.19 at 00h 44m 36s.xml">
-      <configuration name="FileResourceTest.nextWord_thereAreLatinLetters_expectedException" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue - 2017.06.19 at 09h 24m 31s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_withoutFileReading - 2017.06.19 at 00h 42m 06s.xml">
-      <configuration name="FileResourceTest.nextWord_withoutFileReading" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue - 2017.06.19 at 09h 24m 57s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_withoutFileReading - 2017.06.19 at 00h 42m 25s.xml">
-      <configuration name="FileResourceTest.nextWord_withoutFileReading" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue - 2017.06.19 at 09h 31m 17s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_withoutFileReading - 2017.06.19 at 00h 42m 41s.xml">
-      <configuration name="FileResourceTest.nextWord_withoutFileReading" configurationId="GradleRunConfiguration" />
+    <history-entry file="FileResourceTest_nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue - 2017.06.19 at 09h 28m 21s.xml">
+      <configuration name="FileResourceTest.nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FileResourceTest_nextWord_withoutFileReading - 2017.06.19 at 00h 42m 47s.xml">
-      <configuration name="FileResourceTest.nextWord_withoutFileReading" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'UniqueWords2_test' - 2017.06.19 at 00h 45m 30s.xml">
+    <history-entry file="Tests_in_'UniqueWords2_test' - 2017.06.19 at 00h 58m 12s.xml">
       <configuration name="Tests in 'UniqueWords2_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'UniqueWords2_test' - 2017.06.19 at 00h 54m 31s.xml">
+    <history-entry file="Tests_in_'UniqueWords2_test' - 2017.06.19 at 09h 26m 47s.xml">
+      <configuration name="Tests in 'UniqueWords2_test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'UniqueWords2_test' - 2017.06.19 at 09h 31m 57s.xml">
       <configuration name="Tests in 'UniqueWords2_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12595000" />
+    <option name="totallyTimeSpent" value="14150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1346,12 +1280,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26795283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24637681" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24242425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24759872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35151514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1498,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/inno/ps/words/resource/FileResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.inno.ps.words.resource.FileResourceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-18T21:54:30" hostname="hp" time="0.231">
+<testsuite name="ru.inno.ps.words.resource.FileResourceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-19T06:31:57" hostname="hp" time="0.182">
   <properties/>
-  <testcase name="nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.224"/>
-  <testcase name="nextWord_correctWords_assertEqualsAndTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.004"/>
-  <testcase name="nextWord_thereAreLatinLetters_expectedException" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.0"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderSeveralSpaces_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.164"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderSeveralNewLines_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.006"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderWithLatinLetters_expectedException" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.001"/>
+  <testcase name="nextWord_correctWords_assertEqualsAndTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.0"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderSymbolsIsWord_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.001"/>
+  <testcase name="nextWord_thereAreLatinLetters_expectedException" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.001"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderSeveralNewLinesAndSpaces_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.002"/>
+  <testcase name="nextWord_readFromMockedBufferedReaderSymbolsAndLettersIsWord_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.002"/>
   <testcase name="nextWord_readFromMockedBufferedReaderWithCorrectWords_assertTrue" classname="ru.inno.ps.words.resource.FileResourceTest" time="0.002"/>
   <system-out><![CDATA[Expected exception was caught. Message: Illegal latin symbols are found
 Expected exception was caught. Message: Illegal latin symbols are found
